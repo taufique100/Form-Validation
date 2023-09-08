@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-container{
+    background-color: #b88989;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.form{
+    background-color:rgb(106, 231, 173);
+    height: fit-content;
+    padding: 20px;
+    width: 40%;
+    margin: auto auto;
+}
+.form input{
+    padding-left: 3px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    margin: 3px;
+    
+}
+
+.form button{
+    width: 180px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
